@@ -170,9 +170,9 @@ def mc_move(board, player, trials):
         total_scores[best_move[0]][best_move[1]] = total_scores[best_move[0]][best_move[1]] + 1  
      
 
-    return (get_best_mc_move(total_scores)
+    return get_best_mc_move(total_scores)
 
-def get_best_mc_move(total_scores:
+def get_best_mc_move(total_scores):
     """
     This function determine the best move after MC trials
     
